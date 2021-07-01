@@ -12,7 +12,7 @@ from shutil import rmtree
 from setuptools import find_packages, setup, Command
 
 # Package meta-data.
-NAME = 'copy past'
+NAME = 'copy_past'
 DESCRIPTION = 'Image segmentation models with pre-trained backbones. PyTorch.'
 URL = 'https://github.com/qubvel/segmentation_models.pytorch'
 EMAIL = 'qubvel@gmail.com'
