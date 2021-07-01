@@ -9,7 +9,7 @@ README = (HERE / "README.md").read_text()
 
 # This call to setup() does all the work
 setup(
-    name="copy_paste0",
+    name="copy_paste",
     version="1.0.0",
     description="Read the latest Real Python tutorials",
     long_description=README,
@@ -23,12 +23,12 @@ setup(
         "Programming Language :: Python :: 3",
         "Programming Language :: Python :: 3.7",
     ],
-    packages=["reader"],
+    packages=["copy_paste"],
     include_package_data=True,
     install_requires=["feedparser", "html2text"],
     entry_points={
         "console_scripts": [
-            "realpython=reader.__main__:main",
+            "realpython=copy_paste.__main__:main",
         ]
     },
 )
